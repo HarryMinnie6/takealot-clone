@@ -1,0 +1,107 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    min-width: 100px;
+    max-height: 400px;
+    margin: 10px;
+}
+.product:hover{
+    cursor: pointer;
+    box-shadow: 0px 7px 10px -4px rgb(155, 155, 155);
+    transform: scale(1.001);
+}
+.product__image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width:100%;
+    position: relative;
+}
+
+.product__discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b79bf;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    position: absolute;
+    left: 0px;
+}
+strong{
+    font-size: 13px;
+}
+.product__imageDiv{
+    display: flex;
+    justify-self:center;
+    align-self: center;
+    min-height: 200px;
+    max-width: 160px
+}
+.product__imageDiv > img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    margin: 0 10px 10px 30px;
+    justify-self:center;
+    align-self: center;
+    
+}
+.product__title{
+    margin: 15px 10px;
+    align-self: flex-start;
+    min-height:70px
+}
+.product__price{
+    align-self: flex-start;
+    margin: 0 10px;
+   
+}
+.product__price > strong{
+    font-size: 16px;
+}
+.product__rating{
+    align-self: flex-start;
+}
+
+.product__rating{
+    display:  flex;
+    margin: 5px 5px;
+}
+.product__rating > p:nth-child(2){
+    display:  flex;
+    margin-left: 5px;
+}
+.product__button{
+    align-self: flex-start;
+    margin: 5px 5px;
+}
+button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border: none;
+    background-color: #1c8644;
+    transition: 0.15s ease-in
+}
+button:hover{
+    background-color: #19753c;
+    cursor: pointer;
+}
+.plus-sign, .shopping-cart{
+    font-size: 13px !important;
+}
+.shopping-cart{
+margin: 0 8px 0 0;
+}

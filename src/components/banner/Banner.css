@@ -1,0 +1,51 @@
+.banner__wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__advertising{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    
+}
+.banner__adCarousels{
+    margin: 1rem 3rem 1rem 0;
+}
+.banner__adBlocks{
+    margin: 1rem 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img__carouselOne{
+    height: auto;
+    width:100%;
+}
+.banner__addBlockTwo{
+    width: 100%; 
+}
+.banner__addBlockOne{
+    width: 100%; 
+}
+.img__addBlockOne{
+    padding: 5px;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 4px;
+    width: 100%;
+}
+.img__addBlockTwo{
+    
+    padding: 7px;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 4px;
+    width: 100%;
+    
+}
+.banner__header{
+    color: #4d4d4f;
+    font-size: 1.23077rem;
+    margin: 24px 0 4px;
+    min-height: 24px;
+}

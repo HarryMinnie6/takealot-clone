@@ -17,7 +17,20 @@ function reducer(state, action) {
         };
         case 'REMOVE_FROM_CART':
         //CODE FOR REMOVING TO BASKET
-        return {state};
+
+        //cloning the basket
+        let newCart = [...state.cart]
+        
+        const index = state.cart.findIndex((cartItem) => cartItem.id === action.id)
+
+        if(index >=0){
+            //if item exists in basket, remove it...
+            newCart.splice(index, 1);
+        } else{
+            console.warn(`item (id: ${action.id}) is not in the cart`)
+        } 
+
+        return {...state, cart: newCart};
         
         default:
             return state;

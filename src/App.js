@@ -7,15 +7,20 @@ import Header from './components/header/Header'
 import SearchBar from './components/header/SearchBar'
 import Banner from './components/banner/Banner'
 import Home from './components/home/Home'
+import Checkout from './components/checkout/Checkout'
 
 
 function App() {
   return (
     <Router>
       <Switch>
+        
 
         <Route path='/checkout'>
-          <h1> checkout </h1>
+        <Header />
+          <SearchBar />
+          <Checkout />
+          
         </Route>
 
         <Route path='/login'>
@@ -28,6 +33,8 @@ function App() {
           <Banner />
           <Home />
         </Route>
+
+        
 
       </Switch>
     </Router>

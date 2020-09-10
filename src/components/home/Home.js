@@ -14,7 +14,7 @@ function Home() {
                     <Product 
                     id= '1'
                     title='NB North Bayou Double Extension Swivel Monitor Mount for 22-35 Inch Screens'
-                    price={12.00}
+                    price={999}
                     rating={4.4}
                     image= {<img src={require('./prod1.png')} alt=''/>}
                     discount= {20}
@@ -22,7 +22,7 @@ function Home() {
                     <Product 
                     id= '2'
                     title='NB North Bayou Single Arm Adjustable Monitor Desk Mount Stand'
-                    price={12.00}
+                    price={699}
                     rating={3.8}
                     image= {<img src={require('./prod2.png')} alt=''/>}
                     discount= {50}
@@ -30,7 +30,7 @@ function Home() {
                     <Product 
                     id= '3'
                     title='NB North Bayou Dual Arm Adjustable Monitor Desk Mount Stand'
-                    price={12.00}
+                    price={1295}
                     rating={4.1}
                     image= {<img src={require('./prod3.png')} alt=''/>}
                     discount= {10}
@@ -43,7 +43,7 @@ function Home() {
                     <Product 
                     id= '4'
                     title='NIVEA Perfect & Radiant Sensitive Night Cream - 50ml'
-                    price={12.00}
+                    price={110}
                     rating={4.4}
                     image= {<img src={require('./prod4.png')} alt=''/>}
                     discount= {12}
@@ -51,7 +51,7 @@ function Home() {
                     <Product 
                     id= '5'
                     title='NIVEA Perfect & Radiant Even Tone Day Cream SPF15 - 50ml'
-                    price={12.00}
+                    price={120}
                     rating={4.2}
                     image= {<img src={require('./prod5.png')} alt=''/>}
                     discount= {2.2}
@@ -59,7 +59,7 @@ function Home() {
                     <Product 
                     id= '6'
                     title='NIVEA Perfect & Radiant Sensitive Day Cream SPF15 - 50ml'
-                    price={12.00}
+                    price={130}
                     rating={3}
                     image= {<img src={require('./prod6.png')} alt=''/>}
                     discount= {4}

@@ -51,7 +51,7 @@ function Header() {
                     </div>
                 </Link>
                 <div className='vl'></div>
-                <Link to='/login' className='header__link'> 
+                <Link to='/checkout' className='header__link'> 
                     <div className='header__option'>
                         <span>My Account</span>
                     </div>

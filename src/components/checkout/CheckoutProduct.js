@@ -21,7 +21,7 @@ function CheckoutProduct({id,title,price,rating, image}) {
             <div className='cart__item'>
 
                 <div className='cart__item-wrapper'>
-                    <img className='cart__image' src={image} alt='shopping cart image'/>
+                    <img className='cart__image' src={image} alt='product image'/>
 
                     <div className='cart__item-description'>
                         <div className='cart__item-description-title' >
@@ -43,13 +43,7 @@ function CheckoutProduct({id,title,price,rating, image}) {
                     <div className='cart__item-option'>
                         <div className='cart__item-option-price' >
                             <h2> R{price} </h2>
-                            <div> Qty: <select className="number">
-                                        <option value="1" selected>1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4" >4</option>
-                                        <option value="5+">5+</option>
-                                    </select> 
+                            <div> Qty: 1
                             </div>
                         </div>
                         <div className='removal-and-saving'>

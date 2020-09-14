@@ -34,7 +34,7 @@ position: relative;
 .header__link{
     text-decoration: none;
     color: #4d4d4f;
-    font-size: 16px
+    font-size: 14px
 }
 .header__link:hover{
     text-decoration: underline;

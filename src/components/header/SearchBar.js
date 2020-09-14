@@ -10,7 +10,7 @@ function SearchBar() {
             <div className='header__search-bar_wrapper'>
 
                 <div className='header__search'>
-                    <input type='text' className='header__searchInput' />  
+                    <input type='search' className='header__searchInput' />  
                     <SearchIcon className='header__searchIcon'/>     
                 </div>
 

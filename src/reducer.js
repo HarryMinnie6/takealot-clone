@@ -3,10 +3,15 @@
 export const initialState = {
     cart: [],   
 }
+//function for getting the total value of the 
+export const getCartTotal=(cart) => 
+    cart?.reduce((amount, item) => item.price + amount, 0)
+
+
 
 
 //the reducer listens for actions
-function reducer(state, action) {
+const reducer = (state, action) => {
     console.log(action);
     switch(action.type) {
         case 'ADD_TO_CART':

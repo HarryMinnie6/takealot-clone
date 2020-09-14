@@ -8,6 +8,7 @@ import SearchBar from './components/header/SearchBar'
 import Banner from './components/banner/Banner'
 import Home from './components/home/Home'
 import Checkout from './components/checkout/Checkout'
+import Login from './components/login/Login'
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
         </Route>
 
         <Route path='/login'>
-          <h1> login</h1>
+        <Header />
+          <Login />
         </Route>
 
         <Route path='/'>

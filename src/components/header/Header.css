@@ -34,11 +34,11 @@ position: relative;
 .header__link{
     text-decoration: none;
     color: #4d4d4f;
-    font-size: 13px
+    font-size: 16px
 }
 .header__link:hover{
     text-decoration: underline;
-    color: #0b79bf;;
+    color: #0b79bf;
 }
 .header__option{
     margin: 0 16px;

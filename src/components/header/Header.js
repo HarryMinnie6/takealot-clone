@@ -4,12 +4,19 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // import {} from '../components/state-provider/StateProvider'
 import { useStateValue, } from '../../StateProvider';
+// firebase "dependencies"
+import {auth} from '../../firebase'
 
 import "./Header.css"
 
 function Header() {
-    const [ {cart} ] = useStateValue();
-    console.log(cart);
+    const [ {cart, user} ] = useStateValue();
+    // console.log(cart);
+    const login = ( )=>{
+        if(user) {
+            auth.signOut()
+        }
+    }
 
     return (
     <nav className='header'>
@@ -33,9 +40,9 @@ function Header() {
             </div>
 
             <div className='header__nav2'>
-                <Link to='/login' className='header__link'> 
+                <Link to={!user && '/login'} className='header__link'> 
                     <div className='header__option'>
-                        <span>Login</span>
+                        <span onClick={login}> {user ? "Sign Out" : "Signin"} </span>
                     </div>
                 </Link>
                 <div className='vl'></div>
